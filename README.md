@@ -1,48 +1,44 @@
-# Zumba Game in Assembly Langauge MASM
+# Zumba Puzzle Game (MASM615 Assembly)
+
 This project is a tile-matching Zumba-style arcade game built entirely in MASM615 Assembly, using the Irvine32 library for graphics, keyboard input, and sound. The player controls a stationary cannon that shoots colored balls toward a moving chain, aiming to create matches, chain reactions, and high-score combos before the chain reaches end.
 
-Features
 
-Fully interactive gameplay with smooth ball movement and colorful visual effects
+# Features
 
-Multiple stages and levels with increasing difficulty, faster ball chains, more colors, obstacles, and power-ups
+Interactive gameplay with smooth ball movement and colorful visuals
 
-Player can switch between two loaded balls before shooting
+Multiple levels with increasing speed, tighter paths, more colors, and obstacles
 
-Levels include:
+Two-ball cannon system (switch between balls before shooting)
 
-Color Cascade (beginner level)
-
-Rolling Waves, Arc of Fusion
-
-Maze of Momentum, Spiral Surge
+Levels include: Color Cascade, Rolling Waves, Arc of Fusion, Maze of Momentum, Spiral Surge
 
 Power-ups: Slow-Down Ball, Backwards Ball, Accuracy Ball, Explosion Ball
 
-Sound effects integrated using Irvine procedures
+Sound effects using Irvine32
 
-Attractive UI screens: Welcome screen, Game Menu, Instructions, Pause Menu, High Score Screen
+UI Screens: Welcome, Menu, Instructions, Pause, Gameplay, High Score
 
-High-score file handling: stores player names and top scores in sorted order
+High-score file handling (stores sorted player names & scores)
 
-Exception handling for invalid inputs
+Input validation and error handling
 
-All logic implemented with procedures, using stack-based parameter passing (push/pop)
+All logic implemented using procedures with stack-based parameter passing (push/pop)
 
-No high-level constructs (no if/else, no while) — purely Assembly logic
+No high-level constructs allowed (no if/else, no while)
 
-Technical Requirements
+# Technical Requirements
 
 Must run on MASM615
 
-Uses Irvine32 library only
+Irvine32 library allowed for graphics and input only
 
-Third-level enemies/balls are required to move faster
+Level 3 chain/ghosts must be faster
 
-Clean coding practices required: indentation, comments, meaningful labels
+Follow clean coding practices: comments, indentation, meaningful labels
 
-Final submission includes project + gameplay video
+Submit final ZIP + gameplay video
 
-Goal
+# Goal
 
-Skillfully aim and match colors to trigger chain reactions, manage gaps, and avoid letting the chain reach the danger zone. Each level introduces new mechanics, colors, and challenges to test reaction time and strategy.
+Aim, shoot, and match colors to trigger chain reactions, control the chain’s flow, create gaps, and prevent the balls from reaching the danger zone. Each level increases difficulty, requiring faster reactions and better strategy.
